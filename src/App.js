@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from "./pages/Home";
 import CreatePost from "./pages/CreatePost";
 import Login from "./pages/Login";
@@ -21,14 +21,13 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/"> Home </Link>
-
+        <Link to="/home"> Home </Link>
         {!isAuth ? (
           <Link to="/login"> Login </Link>
         ) : (
           <>
             <Link to="/createpost"> Create Post </Link>
-            <button onClick={signUserOut}> Log Out</button>
+            <button  onClick={signUserOut}> Log Out</button>
           </>
         )}
       </nav>
