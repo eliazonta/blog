@@ -1,6 +1,6 @@
 # "Blog" webapp with React + Firebase
 
-This is a blog react webapp, uses Firebase to store users data and posts, you can visualize posts, and create or delete them only if you are logged in with Google 
+This is a blog [React](https://reactjs.org) webapp, uses [Firebase](https://firebase.google.com) to store users data and posts, you can visualize posts, and create or delete them only if you are logged in with Google 
 
 
 ## How to run the project locally
