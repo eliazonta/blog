@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/home"> Home </Link>
+        <Link to="/"> Home </Link>
         {!isAuth ? (
           <Link to="/login"> Login </Link>
         ) : (
@@ -32,7 +32,7 @@ function App() {
         )}
       </nav>
       <Routes>
-        <Route path="/home" element={<Home isAuth={isAuth} />} />
+        <Route path="/" element={<Home isAuth={isAuth} />} />
         <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
       </Routes>
