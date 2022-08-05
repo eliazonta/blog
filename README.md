@@ -9,9 +9,10 @@ This is a blog [React](https://reactjs.org) webapp, uses [Firebase](https://fire
 
 First clone the repo, then run
 
+## `npm i firebase`
+
 ### `npm start`
 
-## `npm i firebase`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
