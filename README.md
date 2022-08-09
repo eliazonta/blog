@@ -1,4 +1,4 @@
-# "Blog" webapp with React + Firebase
+# "Blog" webapp with React + Firebase 🔥
 
 View [here]( https://eliazonta.github.io/blog/)
 
